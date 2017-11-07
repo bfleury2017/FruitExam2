@@ -104,12 +104,6 @@ namespace FruitExam2
                 Console.Write($"{selection} is not a valid selection, enter a value between 1-4: ");
                 selection = int.Parse(Console.ReadLine());
             }
-            //if (selection < 1 || selection > 4)
-            //{
-            //    Console.ForegroundColor = ConsoleColor.Red;
-            //    Console.Write($"{selection} is not a valid selection, enter a value between 1-4: ");
-            //    selection = int.Parse(Console.ReadLine());
-            //}
 
             Console.ForegroundColor = ConsoleColor.Green;
 
